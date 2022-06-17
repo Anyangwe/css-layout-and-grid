@@ -1,0 +1,98 @@
+@font-face {
+    src :url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-family: Lexend Deca;
+}
+@font-face {
+    font-family: Big Shoulders Display;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+}
+body{
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin: auto;
+
+}
+.container div{
+    border: 0px #ccc solid;
+    padding: 10px;
+    width: 15%;
+    height: 320px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.paragraph{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 50px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);  
+}
+h3{
+    font-family: Lexend Deca;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+.box-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.box-2{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.box-3{
+    background-color: hsl(179, 100%, 13%);
+}
+.button1{
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 5cm;
+    font-size: medium;
+    font-family: Lexend Deca;
+    color: hsl(31, 77%, 52%);
+    padding-top: 10px 0px 0px 0px;
+
+    
+}
+.button1:hover{
+    color: #fff;
+    background-color: hsl(31, 77%, 52%);
+}
+button{
+    padding: 10px;
+}
+.button2{
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 5cm;
+    font-size: medium;
+    font-family: Lexend Deca;
+    color: hsl(184, 100%, 22%);
+}
+.button2:hover{
+    color: #fff;
+    background-color: hsl(184, 100%, 22%);
+}
+.button3{
+    background-color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 5cm;
+    font-size: medium;
+    font-family: Lexend Deca;
+    color: hsl(179, 100%, 13%);
+}
+.button3:hover{
+    color: #fff;
+    background-color: hsl(179, 100%, 13%);
+}

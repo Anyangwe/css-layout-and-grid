@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        body{
+            background-color: rgb(3, 3, 47);
+            place-items: center;
+            min-height: 100vh;
+        }
+        .container{
+            display: grid;
+            grid-template-areas: 
+            'a a b'
+            'a a b'
+            'c d d'
+            'c e e';
+            gap: 20px;
+            width: 50%;
+            margin: auto;
+            padding-top: 100px;
+            overflow: hidden; ;
+            
+        }
+        .container div{
+            border-radius: 2px;
+            padding: 2em;
+        }
+        .box1{
+            background-color: plum ;
+            grid-area: a;
+            height: 120px;
+            color: plum ;
+        }
+        .box2{
+            background-color: darkcyan;
+            grid-area: b;
+            height: 120px;
+            color: darkcyan;
+        }
+        .box3{
+            background-color: grey;
+            grid-area: c; 
+            color: grey;     
+        }
+        .box4{
+            background-color: palegreen;
+            grid-area: d;
+            color: palegreen;
+        }
+        .box5{
+            background-color: peachpuff;
+            grid-area: e;
+            color: peachpuff;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+        <div class="box5">Box 5</div>
+    </div>
+    </main> 
+    
+</body>
+</html>
